@@ -39,6 +39,7 @@ function setup(){
 }
 
 function draw(){
+    console.log("inside draw")
     background(backgroundImg);
     Engine.update(engine);
     console.log(box2.body.position.x);
